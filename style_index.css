@@ -1,36 +1,49 @@
-h1 {
-  font-family:굴림;
-  text-align:center;
-  margin:2px;
-  padding:5px;
+#hid {
+  display: none;
 }
-ol {
-  border-right:1px solid gray;
-  padding-left:20px;
-  padding-right:20px;
+.cc {
+  font-family:굴림;
+  font-size: 3.5vmax;
+  text-align:center;
+  text-decoration: none;
+  color:#007fff;
+  margin:1%;
+  padding:1%;
 }
 body {
-  margin:5px;
-  padding:20px;
+  margin:1%;
+  padding:2%;
+  padding-top:1%;
 }
-a {
-  color:black;
-  font-weight:800;
-  text-decoration:none;
-}
-#sese {
+#see {
   display:grid;
-  grid-template-columns:20% 1fr;
+  grid-template-columns:25% 1fr;
+}
+#left {
+  font-size: 1.8vmax;
+  text-decoration: none;
+  color:gray;
+  line-height: 200%;
+  list-style-type: none;
+  border-right:1px solid black;
+  margin:2%;
+  padding:2%;
 }
 #right {
-  padding:10px;
+  padding:2%;
+}
+h2 {
+  font-size: 1.8vmax;
+}
+p {
+  font-size: 1.5vmax;
 }
 @media(max-width:800px) {
-  ol {
-    border-right:none;
-    border-bottom:1px solid gray;
-  }
-  #sese {
+  #see {
     display:block;
+  }
+  #left {
+    border-right:none;
+    border-bottom:1px solid black;
   }
 }
