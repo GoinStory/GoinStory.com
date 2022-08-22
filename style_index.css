@@ -20,7 +20,7 @@ body {
   grid-template-columns:25% 1fr;
 }
 #left {
-  font-size: 1.8vmax;
+  font-size: 1.6vmax;
   text-decoration: none;
   color:gray;
   line-height: 200%;
@@ -29,6 +29,9 @@ body {
   margin:2%;
   padding:2%;
 }
+#han {
+  width:90%;
+}  
 #right {
   padding:2%;
 }
@@ -45,5 +48,8 @@ p {
   #left {
     border-right:none;
     border-bottom:1px solid black;
+  }
+  #han {
+    width:30%;
   }
 }
