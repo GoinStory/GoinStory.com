@@ -1,11 +1,14 @@
 #hid {
   display: none;
 }
+a {
+  text-decoration: none;
+}
 .cc {
   font-family:굴림;
   font-size: 3.5vmax;
+  font-weight: bold;
   text-align:center;
-  text-decoration: none;
   color:#007fff;
   margin:1%;
   padding:1%;
@@ -15,13 +18,20 @@ body {
   padding:2%;
   padding-top:1%;
 }
-#see {
+#flow {
+  font-size: 1.6vmax;
+  text-align:center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#grid {
   display:grid;
   grid-template-columns:25% 1fr;
+  border-bottom:1px solid black;
 }
 #left {
   font-size: 1.6vmax;
-  text-decoration: none;
+  font-weight: bold;
   color:gray;
   line-height: 200%;
   list-style-type: none;
@@ -52,4 +62,9 @@ p {
   #han {
     width:30%;
   }
+}
+#bottom {
+  font-size: 0.5vmax;
+  text-align:center;
+  color: gray;
 }
