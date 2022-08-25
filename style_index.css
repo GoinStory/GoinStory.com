@@ -28,7 +28,7 @@ body {
 }
 #grid {
   display:grid;
-  grid-template-columns:25% 1fr;
+  grid-template-columns:20% 35% 45%;
   border-bottom:1px solid black;
 }
 #left {
@@ -43,9 +43,14 @@ body {
 }
 #han {
   width:90%;
-}  
+}
+#cnt {
+  padding:2%;
+  padding-left: 6%;
+}
 #right {
   padding:2%;
+  padding-left: 6%;
 }
 h2 {
   font-size: 1.8vmax;
