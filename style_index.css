@@ -34,6 +34,7 @@ body {
 #first-l {
   margin:5%;
   padding:5%;
+  padding-top:10%;
 }
 #first-r {
   margin:2%;
@@ -41,7 +42,7 @@ body {
   padding-left:10%;
   font-size: 2.0vmax;
   font-weight: bold;
-  line-height: 180%;
+  line-height: 150%;
 }
 ul {
   padding:0%;
