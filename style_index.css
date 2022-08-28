@@ -68,7 +68,7 @@ h2 {
   font-size: 1.8vmax;
 }
 p {
-  font-size: 1.6vmax;
+  font-size: 1.3vmax;
   line-height: 180%;
 }
 @media(min-width:800px) {
@@ -82,7 +82,7 @@ p {
     border-bottom:none;
   }
   #first-r {
-    font-size: 1.8vmax;
+    font-size: 1.6vmax;
     padding-left:10%;
   }
   #second {
