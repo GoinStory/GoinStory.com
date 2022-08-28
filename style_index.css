@@ -21,7 +21,7 @@ body {
   padding-top:1%;
 }
 #flow {
-  font-size: 1.6vmax;
+  font-size: 1.8vmax;
   line-height: 100%;
   padding-left: 5%;
   padding-right: 5%;
@@ -37,8 +37,9 @@ body {
 }
 #first-r {
   margin:2%;
-  padding:2%;
-  font-size: 2.5vmax;
+  padding:2%;.
+  padding-left:10%;
+  font-size: 2.0vmax;
   font-weight: bold;
   line-height: 180%;
 }
@@ -67,7 +68,7 @@ h2 {
   font-size: 1.8vmax;
 }
 p {
-  font-size: 1.2vmax;
+  font-size: 1.6vmax;
   line-height: 180%;
 }
 @media(min-width:800px) {
@@ -82,6 +83,7 @@ p {
   }
   #first-r {
     font-size: 1.8vmax;
+    padding-left:10%;
   }
   #second {
     padding:10%;
